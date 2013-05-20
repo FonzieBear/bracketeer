@@ -5,6 +5,13 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /css
+  static_dir: css
 - url: /.*
   script: bracketeer.application
 
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
