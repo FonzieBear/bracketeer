@@ -1,5 +1,15 @@
 body {
   background-color: LightPink;
+  text-align: center;
+}
+
+#main-container {
+  width: 800px;
+  background-color: LightBlue;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 12px;
 }
 
 .app-title {
@@ -7,3 +17,10 @@ body {
   font-family: arial;
 }
 
+ul.subsection_tabs {
+  list-style: none;
+}
+
+ul.subsection_tabs li.tab {
+  float: left;
+}
