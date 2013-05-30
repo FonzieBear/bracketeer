@@ -22,6 +22,7 @@ body {
 
 ul.subsection_tabs {
   list-style: none;
+  height: 20px;
 }
 
 ul.subsection_tabs li.tab {
@@ -34,5 +35,5 @@ ul.subsection_tabs li.tab {
   text-decoration: none;
   padding: 0 6px 0 6px;
   height: 20px;
-  color: #666;
+  color: black;
 }
