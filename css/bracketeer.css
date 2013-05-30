@@ -16,7 +16,8 @@ body {
 
 .app-title {
   text-align: center;
-  font-family: arial;
+  font-family: 'Sail', cursive;
+  font-size: xx-large;
 }
 
 ul.subsection_tabs {
