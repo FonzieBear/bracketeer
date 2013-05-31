@@ -11,6 +11,7 @@ handlers:
   static_dir: js
 - url: /.*
   script: bracketeer.application
+  login: required
 
 libraries:
 - name: webapp2

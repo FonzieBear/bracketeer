@@ -32,7 +32,6 @@ ul.subsection_tabs li.tab {
 .tab a {
   width: 80px;
   font-weight: bold;
-  text-decoration: none;
   padding: 0 6px 0 6px;
   height: 20px;
   color: black;
