@@ -6,4 +6,5 @@ class Gambler(db.Model):
   last_name = db.StringProperty()
   user_id = db.StringProperty()
   user_obj = users.User()
+  is_admin = db.BooleanProperty(default=False)
 
