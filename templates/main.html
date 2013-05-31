@@ -11,17 +11,21 @@
     <script type="text/javascript" src="../js/bracketeer.js" defer></script>
   </head>
   <body>
-    <div id="main-container" class="container">
+    <div id="top-container" class="container">
       <div id="title"><h1 class="app-title">The Bachelorette 2013</h1></div>
-      <hr>
+    </div>
+    <div id="middle-container" class="container">
       <ul id="tabs_main" class="subsection_tabs">
         <li class="tab"><a href="#home">Home</a></li>
         <li class="tab"><a href="#standings">Standings</a><li>
       </ul>
+      <hr>
 
       <div id="home">
         <p>
-          Home page
+          First name: {{first_name}}<br>
+          Last name: {{last_name}}<br>
+          Nickname: {{nickname}}
         </p>
       </div>
 
