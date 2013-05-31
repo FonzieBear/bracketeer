@@ -22,19 +22,14 @@
       <hr>
 
       <div id="home">
-        <p>
-          First name: {{first_name}}<br>
-          Last name: {{last_name}}<br>
-          Nickname: {{nickname}}
-        </p>
+        {% include 'templates/home.html' %}
       </div>
 
       <div id="standings">
-        <p>
-          Standings
-        </p>
+        {% include 'templates/standings.html' %}
       </div>
     </div>
   </body>
 </html>
 {% endautoescape %}
+
