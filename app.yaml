@@ -9,6 +9,8 @@ handlers:
   static_dir: css
 - url: /js
   static_dir: js
+- url: /closure-library
+  static_dir: closure-library
 - url: /.*
   script: bracketeer.application
   login: required
