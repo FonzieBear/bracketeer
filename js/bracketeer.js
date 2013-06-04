@@ -1,2 +1,2 @@
-new Control.Tabs('tabs_main');
+goog.require('goog.dom');
 
